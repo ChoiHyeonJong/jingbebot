@@ -16,18 +16,62 @@
 
 - 카카오톡 플러스친구 미러봇
 
-1. virtualenvwrapper install
+1. virtualenv
+
+virtualenv는 가상환경으로, 개발자 환경과 서버의 환경을 독립적으로 구성할 때 사용한다.
 
 ```
-# Install module
+# Install virtualenv
 pip install virtualenvwrapper
 
 # 환경설정
 mkdir ~/.virtualenvs
 export WORKON_HOME=~/.virtualenvs
 
-# home 디렉토리 .profile 하단에 아래 문구 추가
-. /usr/local/bin/virtualenvwrapper.sh
+# home 디렉토리 .bashrc 하단에 아래 문구 추가
+export WORKON_HOME=~/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
+# reload profile
+source ~/.profile
+
+# virtualenv 생성
+# ~/.virtualenvs/(가상환경이름)이 생성된다.
+
+mkvirtualenv jingbebot 
+
+# virtualenv를 빠져나오기 위해서는 deactivate 명령어를 사용한다.
+deactivate
+```
+
+2. heroku 
+
+heroku는 PaaS 서비스로, 개발자가 어플리케이션을 git을 통해 업로드, 서비스할 수 있게 도와준다.
+
+```
+# Install heroku 
+wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+
+# Install git & config
+sudo apt install git
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+# virtualenv, heroku 진입
+
+workon jingbebot
+heroku login
+
+# jingbebot 징배봇 가상환경 (~/.virtualenvs/jingbebot) 안으로 git clone 
+
+heroku create jingbebot
+git init 
+git remote add heroku https://git.heroku.com/(jingbebot).git
+git add .
+git commit -m "first commit"
+git push heroku master
+
 ```
 
 - 페이스북 메신저 미러봇
