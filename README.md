@@ -16,4 +16,18 @@
 
 - 카카오톡 플러스친구 미러봇
 
+1. virtualenvwrapper install
+```
+pip install virtualenvwrapper
+```
+2. virtualenvwrapper setting
+```
+mkdir ~/.virtualenvs
+export WORKON_HOME=~/.virtualenvs
+```
+.profile 하단에 추가
+```
+. /usr/local/bin/virtualenvwrapper.sh
+```
+
 - 페이스북 메신저 미러봇
