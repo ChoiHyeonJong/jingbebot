@@ -1,6 +1,11 @@
 ## 1. 징배봇이란
 
 ## 2. 준비사항
+```
+# ubuntu 16.04 LTS 환경
+# [heroku](https://www.heroku.com/) 계정
+# [kakaotalk 플러스친구](https://center-pf.kakao.com/login) 계정
+```
 
 ## 3. 징배봇 만들기
 
