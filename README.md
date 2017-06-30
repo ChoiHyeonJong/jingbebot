@@ -2,7 +2,7 @@
 
 ## 2. 준비사항
 
-1. ubuntu 16.04 LTS 환경
+1. ubuntu 16.04 LTS 환경 (우분투 환경 기준)
 2. [heroku](https://www.heroku.com "heroku") 계정
 3. [kakaotalk 플러스친구](https://center-pf.kakao.com/login "kakaotalk 플러스친구") 계정
 
