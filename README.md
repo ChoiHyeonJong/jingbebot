@@ -2,9 +2,9 @@
 
 ## 2. 준비사항
 
-ubuntu 16.04 LTS 환경
-[heroku](https://www.heroku.com "heroku") 계정
-[kakaotalk 플러스친구](https://center-pf.kakao.com/login "kakaotalk 플러스친구") 계정
+1. ubuntu 16.04 LTS 환경
+2. [heroku](https://www.heroku.com "heroku") 계정
+3. [kakaotalk 플러스친구](https://center-pf.kakao.com/login "kakaotalk 플러스친구") 계정
 
 
 ## 3. 징배봇 만들기
