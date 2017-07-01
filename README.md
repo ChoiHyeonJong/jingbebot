@@ -84,7 +84,7 @@ git push heroku master
 
 - kakaotalk 플러스친구 앱등록
 
-  - [kakaotalk 플러스친구](https://center-pf.kakao.com/login "kakaotalk 플러스친구") 스마트채팅 -> api형
-  - 앱 URL(https://(jingbebot).herokuapp.com) 등록 -> api test -> api형 저장하기
+ - [kakaotalk 플러스친구](https://center-pf.kakao.com/login "kakaotalk 플러스친구") 스마트채팅 -> api형
+ - 앱 URL(https://(jingbebot).herokuapp.com) 등록 -> api test -> api형 저장하기
   
 #### 3.1.2. 페이스북 메신저 미러봇
