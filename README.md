@@ -2,9 +2,13 @@
 
 ## 2. 준비사항
 
+- 3.1. 미러 봇
 1. ubuntu 16.04 LTS 환경
 2. [heroku](https://www.heroku.com "heroku") 계정
 3. [kakaotalk 플러스친구](https://center-pf.kakao.com/login "kakaotalk 플러스친구") 계정
+
+- 3.2. 마음(maum) 플랫폼 연동
+1. [마음(maum)](https://maum.ai/ "마음플랫폼") 챗봇
 
 ## 3. 징배봇 만들기
 
@@ -88,3 +92,31 @@ git push heroku master
   - 앱 URL(https://(jingbebot).herokuapp.com) 등록 -> api test -> api형 저장하기
   
 #### 3.1.2. 페이스북 메신저 미러봇
+
+### 3.2. 마음(maum) 플랫폼 연동
+
+```
+이제 미러봇에서 한발짝 더 나아가 챗봇 플랫폼인 마음(maum) 플랫폼을 연동시켜 보자.
+마음 플랫폼은 Rest API를 제공하고 있기 때문에,
+마음 플랫폼에서 구축한 챗봇은 다양한 인터페이스에서 대화가 가능하다.
+```
+
+#### 3.2.1. kakaotalk 플러스친구 연동
+
+```
+# git clone (임시 저장위치에서 git clone)
+git clone https://github.com/ChoiHyeonJong/jingbebot.git
+
+# mirror-bot 폴더 내의 app.py, Procfile, requirements.txt를 가상환경 폴더로 복사
+cp app.py Procfile requirements.txt /home/.virtualenvs/(jingbebot) 
+
+# heroku create
+heroku create (jingbebot)
+
+git init 
+git remote add heroku https://git.heroku.com/(jingbebot).git
+
+git add .
+git commit -m "first commit"
+git push heroku master
+```
