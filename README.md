@@ -21,7 +21,7 @@
 
 - kakaotalk 플러스친구 미러봇
 
- - virtualenv 구축
+  - virtualenv 구축
 
 virtualenv는 가상환경으로, 개발자 환경과 서버의 환경을 독립적으로 구성할 때 사용한다.
 
@@ -49,7 +49,7 @@ mkvirtualenv jingbebot
 deactivate
 ```
 
- -heroku 
+  - heroku 
 
 heroku는 PaaS 서비스로, 개발자가 어플리케이션을 git을 통해 업로드, 서비스할 수 있게 도와준다.
 
