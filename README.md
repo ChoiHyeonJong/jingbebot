@@ -83,7 +83,6 @@ git remote add heroku https://git.heroku.com/(jingbebot).git
 git add .
 git commit -m "first commit"
 git push heroku master
-
 ```
 
 - kakaotalk 플러스친구 앱등록
