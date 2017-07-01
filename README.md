@@ -31,7 +31,7 @@ pip install virtualenvwrapper
 
 # 환경설정
 mkdir ~/.virtualenvs
-export WORKON_HOME=~/.virtualenvs
+export WORKON_HOME=~/.virtualenvs # 제거해도 될 듯
 
 # home 디렉토리 .bashrc 하단에 아래 문구 추가
 export WORKON_HOME=~/.virtualenvs
@@ -43,7 +43,7 @@ source ~/.profile
 # virtualenv 생성
 # ~/.virtualenvs/(가상환경이름)이 생성된다.
 
-mkvirtualenv jingbebot 
+mkvirtualenv (jingbebot)
 
 # virtualenv를 빠져나오기 위해서는 deactivate 명령어를 사용한다.
 deactivate
@@ -65,14 +65,22 @@ git config --global user.name "Your Name"
 
 # virtualenv, heroku 진입
 
-workon jingbebot
+workon (jingbebot) # jingbebot 가상환경 진입 시 workon 명령어 사용
 heroku login
 
-# jingbebot 징배봇 가상환경 (~/.virtualenvs/jingbebot) 안으로 git clone 
+# git clone
 
-heroku create jingbebot
+git clone https://github.com/ChoiHyeonJong/jingbebot.git # 임시로 저장하고자 하는 위치에서 git clone
+
+cp app.py Procfile requirements.txt /home/.virtualenvs/(jingbebot) # 가상환경으로 이동 
+
+# heroku create
+
+heroku create (jingbebot)
+
 git init 
 git remote add heroku https://git.heroku.com/(jingbebot).git
+
 git add .
 git commit -m "first commit"
 git push heroku master
