@@ -8,7 +8,7 @@
 
 ## 3. 징배봇 만들기
 
-**1. 미러(Mirror) 봇 만들어보기**
+ **1. 미러(Mirror) 봇 만들어보기**
 
 ```
 미러(Mirror) 봇이란 "사용자의 말을 그대로 따라하는 봇"을 의미한다.
@@ -21,7 +21,7 @@
 
 - kakaotalk 플러스친구 미러봇
 
-  - virtualenv 구축
+ - virtualenv 구축
 
 virtualenv는 가상환경으로, 개발자 환경과 서버의 환경을 독립적으로 구성할 때 사용한다.
 
@@ -49,9 +49,9 @@ mkvirtualenv jingbebot
 deactivate
 ```
 
-  2. heroku 
+ -heroku 
 
-     heroku는 PaaS 서비스로, 개발자가 어플리케이션을 git을 통해 업로드, 서비스할 수 있게 도와준다.
+heroku는 PaaS 서비스로, 개발자가 어플리케이션을 git을 통해 업로드, 서비스할 수 있게 도와준다.
 
 ```
 # Install heroku 
