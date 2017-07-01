@@ -22,7 +22,7 @@
 "...안녕?"
 ```
 
-#### 3.1.1. kakaotalk 플러스친구 미러봇
+#### 3.1.1. 카카오톡 플러스친구 미러봇
 
 - virtualenv 구축
 
@@ -85,7 +85,7 @@ git commit -m "first commit"
 git push heroku master
 ```
 
-- kakaotalk 플러스친구 앱등록
+- 카카오톡 플러스친구 앱등록
 
   - [kakaotalk 플러스친구](https://center-pf.kakao.com/login "kakaotalk 플러스친구") 스마트채팅 -> api형
   - 앱 URL(https://(jingbebot).herokuapp.com) 등록 -> api test -> api형 저장하기
@@ -105,7 +105,7 @@ git push heroku master
 마음 플랫폼에서 구축한 챗봇은 다양한 인터페이스에서 대화가 가능하다.
 ```
 
-#### 3.2.1. kakaotalk 플러스친구 연동
+#### 3.2.1. 카카오톡 플러스친구 연동
 
 ```
 # git clone (임시 저장위치에서 git clone)
@@ -122,3 +122,5 @@ git add .
 git commit -m "maum-bot try"
 git push heroku master
 ```
+
+#### 3.2.2. 페이스북 메신저 연동
