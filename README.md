@@ -2,12 +2,12 @@
 
 ## 2. 준비사항
 
-- 3.1. 미러 봇
+- 미러 봇
 1. ubuntu 16.04 LTS 환경
 2. [heroku](https://www.heroku.com "heroku") 계정
 3. [kakaotalk 플러스친구](https://center-pf.kakao.com/login "kakaotalk 플러스친구") 계정
 
-- 3.2. 마음(maum) 플랫폼 연동
+- 마음(maum) 플랫폼 연동
 1. [마음(maum)](https://maum.ai/ "마음플랫폼") 챗봇
 
 ## 3. 징배봇 만들기
